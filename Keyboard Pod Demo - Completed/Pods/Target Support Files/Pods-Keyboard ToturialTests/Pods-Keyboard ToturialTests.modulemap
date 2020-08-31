@@ -1,0 +1,6 @@
+framework module Pods_Keyboard_ToturialTests {
+  umbrella header "Pods-Keyboard ToturialTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

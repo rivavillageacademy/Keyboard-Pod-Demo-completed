@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D40EBF60578A5C6908EA43 /* Pods_Keyboard_ToturialTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0704EF54C6D3A6AF20A22ED7 /* Pods_Keyboard_ToturialTests.framework */; };
+		48C2EC84CFFE8B13E0AD0E70 /* Pods_Keyboard_Toturial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07719B78F453418414075B2 /* Pods_Keyboard_Toturial.framework */; };
+		9AD620C324FC08C100DA2B59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD620C224FC08C100DA2B59 /* AppDelegate.swift */; };
+		9AD620C524FC08C100DA2B59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD620C424FC08C100DA2B59 /* SceneDelegate.swift */; };
+		9AD620C724FC08C100DA2B59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD620C624FC08C100DA2B59 /* ViewController.swift */; };
+		9AD620CA24FC08C100DA2B59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD620C824FC08C100DA2B59 /* Main.storyboard */; };
+		9AD620CC24FC08C300DA2B59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD620CB24FC08C300DA2B59 /* Assets.xcassets */; };
+		9AD620CF24FC08C300DA2B59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD620CD24FC08C300DA2B59 /* LaunchScreen.storyboard */; };
+		9AD620DA24FC08C300DA2B59 /* Keyboard_ToturialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD620D924FC08C300DA2B59 /* Keyboard_ToturialTests.swift */; };
+		9AD620E524FC08C300DA2B59 /* Keyboard_ToturialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD620E424FC08C300DA2B59 /* Keyboard_ToturialUITests.swift */; };
+		9DAF21334F2E40FE7BBD8F02 /* Pods_Keyboard_Toturial_Keyboard_ToturialUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66167DE6333DBB75D7A1C8F5 /* Pods_Keyboard_Toturial_Keyboard_ToturialUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AD620D624FC08C300DA2B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD620B724FC08C100DA2B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD620BE24FC08C100DA2B59;
+			remoteInfo = "Keyboard Toturial";
+		};
+		9AD620E124FC08C300DA2B59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AD620B724FC08C100DA2B59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AD620BE24FC08C100DA2B59;
+			remoteInfo = "Keyboard Toturial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0344426F1F73A35F4F8B9B78 /* Pods-Keyboard Toturial-Keyboard ToturialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard Toturial-Keyboard ToturialUITests.release.xcconfig"; path = "Target Support Files/Pods-Keyboard Toturial-Keyboard ToturialUITests/Pods-Keyboard Toturial-Keyboard ToturialUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0704EF54C6D3A6AF20A22ED7 /* Pods_Keyboard_ToturialTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboard_ToturialTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F41BEBC8B9017DA39ADAE59 /* Pods-Keyboard ToturialTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard ToturialTests.debug.xcconfig"; path = "Target Support Files/Pods-Keyboard ToturialTests/Pods-Keyboard ToturialTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59326CD57CB1B53EB98AEFED /* Pods-Keyboard ToturialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard ToturialTests.release.xcconfig"; path = "Target Support Files/Pods-Keyboard ToturialTests/Pods-Keyboard ToturialTests.release.xcconfig"; sourceTree = "<group>"; };
+		66167DE6333DBB75D7A1C8F5 /* Pods_Keyboard_Toturial_Keyboard_ToturialUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboard_Toturial_Keyboard_ToturialUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		736E3F8191B21EC9BA5C2DAB /* Pods-Keyboard Toturial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard Toturial.release.xcconfig"; path = "Target Support Files/Pods-Keyboard Toturial/Pods-Keyboard Toturial.release.xcconfig"; sourceTree = "<group>"; };
+		9AD620BF24FC08C100DA2B59 /* Keyboard Toturial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keyboard Toturial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD620C224FC08C100DA2B59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD620C424FC08C100DA2B59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AD620C624FC08C100DA2B59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD620C924FC08C100DA2B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD620CB24FC08C300DA2B59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD620CE24FC08C300DA2B59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD620D024FC08C300DA2B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD620D524FC08C300DA2B59 /* Keyboard ToturialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard ToturialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD620D924FC08C300DA2B59 /* Keyboard_ToturialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_ToturialTests.swift; sourceTree = "<group>"; };
+		9AD620DB24FC08C300DA2B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD620E024FC08C300DA2B59 /* Keyboard ToturialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Keyboard ToturialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD620E424FC08C300DA2B59 /* Keyboard_ToturialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard_ToturialUITests.swift; sourceTree = "<group>"; };
+		9AD620E624FC08C300DA2B59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0215F9E78C116E1C52B3F34 /* Pods-Keyboard Toturial-Keyboard ToturialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard Toturial-Keyboard ToturialUITests.debug.xcconfig"; path = "Target Support Files/Pods-Keyboard Toturial-Keyboard ToturialUITests/Pods-Keyboard Toturial-Keyboard ToturialUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D07719B78F453418414075B2 /* Pods_Keyboard_Toturial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keyboard_Toturial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA751E6AA47F6C2E84F64AA4 /* Pods-Keyboard Toturial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keyboard Toturial.debug.xcconfig"; path = "Target Support Files/Pods-Keyboard Toturial/Pods-Keyboard Toturial.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD620BC24FC08C100DA2B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C2EC84CFFE8B13E0AD0E70 /* Pods_Keyboard_Toturial.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD620D224FC08C300DA2B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D40EBF60578A5C6908EA43 /* Pods_Keyboard_ToturialTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD620DD24FC08C300DA2B59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DAF21334F2E40FE7BBD8F02 /* Pods_Keyboard_Toturial_Keyboard_ToturialUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AD620B624FC08C100DA2B59 = {
+			isa = PBXGroup;
+			children = (
+				9AD620C124FC08C100DA2B59 /* Keyboard Toturial */,
+				9AD620D824FC08C300DA2B59 /* Keyboard ToturialTests */,
+				9AD620E324FC08C300DA2B59 /* Keyboard ToturialUITests */,
+				9AD620C024FC08C100DA2B59 /* Products */,
+				C8D432E122B644D34E52F2E0 /* Pods */,
+				ED5AA109E9942C5C9AAEB060 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD620C024FC08C100DA2B59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD620BF24FC08C100DA2B59 /* Keyboard Toturial.app */,
+				9AD620D524FC08C300DA2B59 /* Keyboard ToturialTests.xctest */,
+				9AD620E024FC08C300DA2B59 /* Keyboard ToturialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD620C124FC08C100DA2B59 /* Keyboard Toturial */ = {
+			isa = PBXGroup;
+			children = (
+				9AD620C224FC08C100DA2B59 /* AppDelegate.swift */,
+				9AD620C424FC08C100DA2B59 /* SceneDelegate.swift */,
+				9AD620C624FC08C100DA2B59 /* ViewController.swift */,
+				9AD620C824FC08C100DA2B59 /* Main.storyboard */,
+				9AD620CB24FC08C300DA2B59 /* Assets.xcassets */,
+				9AD620CD24FC08C300DA2B59 /* LaunchScreen.storyboard */,
+				9AD620D024FC08C300DA2B59 /* Info.plist */,
+			);
+			path = "Keyboard Toturial";
+			sourceTree = "<group>";
+		};
+		9AD620D824FC08C300DA2B59 /* Keyboard ToturialTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD620D924FC08C300DA2B59 /* Keyboard_ToturialTests.swift */,
+				9AD620DB24FC08C300DA2B59 /* Info.plist */,
+			);
+			path = "Keyboard ToturialTests";
+			sourceTree = "<group>";
+		};
+		9AD620E324FC08C300DA2B59 /* Keyboard ToturialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AD620E424FC08C300DA2B59 /* Keyboard_ToturialUITests.swift */,
+				9AD620E624FC08C300DA2B59 /* Info.plist */,
+			);
+			path = "Keyboard ToturialUITests";
+			sourceTree = "<group>";
+		};
+		C8D432E122B644D34E52F2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA751E6AA47F6C2E84F64AA4 /* Pods-Keyboard Toturial.debug.xcconfig */,
+				736E3F8191B21EC9BA5C2DAB /* Pods-Keyboard Toturial.release.xcconfig */,
+				B0215F9E78C116E1C52B3F34 /* Pods-Keyboard Toturial-Keyboard ToturialUITests.debug.xcconfig */,
+				0344426F1F73A35F4F8B9B78 /* Pods-Keyboard Toturial-Keyboard ToturialUITests.release.xcconfig */,
+				2F41BEBC8B9017DA39ADAE59 /* Pods-Keyboard ToturialTests.debug.xcconfig */,
+				59326CD57CB1B53EB98AEFED /* Pods-Keyboard ToturialTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED5AA109E9942C5C9AAEB060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D07719B78F453418414075B2 /* Pods_Keyboard_Toturial.framework */,
+				66167DE6333DBB75D7A1C8F5 /* Pods_Keyboard_Toturial_Keyboard_ToturialUITests.framework */,
+				0704EF54C6D3A6AF20A22ED7 /* Pods_Keyboard_ToturialTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD620BE24FC08C100DA2B59 /* Keyboard Toturial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD620E924FC08C300DA2B59 /* Build configuration list for PBXNativeTarget "Keyboard Toturial" */;
+			buildPhases = (
+				CBAE4A7EDF311257128C71B9 /* [CP] Check Pods Manifest.lock */,
+				9AD620BB24FC08C100DA2B59 /* Sources */,
+				9AD620BC24FC08C100DA2B59 /* Frameworks */,
+				9AD620BD24FC08C100DA2B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Keyboard Toturial";
+			productName = "Keyboard Toturial";
+			productReference = 9AD620BF24FC08C100DA2B59 /* Keyboard Toturial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AD620D424FC08C300DA2B59 /* Keyboard ToturialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD620EC24FC08C300DA2B59 /* Build configuration list for PBXNativeTarget "Keyboard ToturialTests" */;
+			buildPhases = (
+				8CF420B21F46B7542AF012E8 /* [CP] Check Pods Manifest.lock */,
+				9AD620D124FC08C300DA2B59 /* Sources */,
+				9AD620D224FC08C300DA2B59 /* Frameworks */,
+				9AD620D324FC08C300DA2B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD620D724FC08C300DA2B59 /* PBXTargetDependency */,
+			);
+			name = "Keyboard ToturialTests";
+			productName = "Keyboard ToturialTests";
+			productReference = 9AD620D524FC08C300DA2B59 /* Keyboard ToturialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AD620DF24FC08C300DA2B59 /* Keyboard ToturialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD620EF24FC08C300DA2B59 /* Build configuration list for PBXNativeTarget "Keyboard ToturialUITests" */;
+			buildPhases = (
+				CE763AF45C643D6360FC4F45 /* [CP] Check Pods Manifest.lock */,
+				9AD620DC24FC08C300DA2B59 /* Sources */,
+				9AD620DD24FC08C300DA2B59 /* Frameworks */,
+				9AD620DE24FC08C300DA2B59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AD620E224FC08C300DA2B59 /* PBXTargetDependency */,
+			);
+			name = "Keyboard ToturialUITests";
+			productName = "Keyboard ToturialUITests";
+			productReference = 9AD620E024FC08C300DA2B59 /* Keyboard ToturialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD620B724FC08C100DA2B59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9AD620BE24FC08C100DA2B59 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9AD620D424FC08C300DA2B59 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9AD620BE24FC08C100DA2B59;
+					};
+					9AD620DF24FC08C300DA2B59 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9AD620BE24FC08C100DA2B59;
+					};
+				};
+			};
+			buildConfigurationList = 9AD620BA24FC08C100DA2B59 /* Build configuration list for PBXProject "Keyboard Toturial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD620B624FC08C100DA2B59;
+			productRefGroup = 9AD620C024FC08C100DA2B59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD620BE24FC08C100DA2B59 /* Keyboard Toturial */,
+				9AD620D424FC08C300DA2B59 /* Keyboard ToturialTests */,
+				9AD620DF24FC08C300DA2B59 /* Keyboard ToturialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD620BD24FC08C100DA2B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD620CF24FC08C300DA2B59 /* LaunchScreen.storyboard in Resources */,
+				9AD620CC24FC08C300DA2B59 /* Assets.xcassets in Resources */,
+				9AD620CA24FC08C100DA2B59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD620D324FC08C300DA2B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD620DE24FC08C300DA2B59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8CF420B21F46B7542AF012E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keyboard ToturialTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAE4A7EDF311257128C71B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keyboard Toturial-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE763AF45C643D6360FC4F45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keyboard Toturial-Keyboard ToturialUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD620BB24FC08C100DA2B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD620C724FC08C100DA2B59 /* ViewController.swift in Sources */,
+				9AD620C324FC08C100DA2B59 /* AppDelegate.swift in Sources */,
+				9AD620C524FC08C100DA2B59 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD620D124FC08C300DA2B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD620DA24FC08C300DA2B59 /* Keyboard_ToturialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD620DC24FC08C300DA2B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD620E524FC08C300DA2B59 /* Keyboard_ToturialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AD620D724FC08C300DA2B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD620BE24FC08C100DA2B59 /* Keyboard Toturial */;
+			targetProxy = 9AD620D624FC08C300DA2B59 /* PBXContainerItemProxy */;
+		};
+		9AD620E224FC08C300DA2B59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AD620BE24FC08C100DA2B59 /* Keyboard Toturial */;
+			targetProxy = 9AD620E124FC08C300DA2B59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AD620C824FC08C100DA2B59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD620C924FC08C100DA2B59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD620CD24FC08C300DA2B59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD620CE24FC08C300DA2B59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD620E724FC08C300DA2B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD620E824FC08C300DA2B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD620EA24FC08C300DA2B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA751E6AA47F6C2E84F64AA4 /* Pods-Keyboard Toturial.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Keyboard Toturial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Keyboard-Toturial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD620EB24FC08C300DA2B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736E3F8191B21EC9BA5C2DAB /* Pods-Keyboard Toturial.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Keyboard Toturial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Keyboard-Toturial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AD620ED24FC08C300DA2B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F41BEBC8B9017DA39ADAE59 /* Pods-Keyboard ToturialTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Keyboard ToturialTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Keyboard-ToturialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Toturial.app/Keyboard Toturial";
+			};
+			name = Debug;
+		};
+		9AD620EE24FC08C300DA2B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59326CD57CB1B53EB98AEFED /* Pods-Keyboard ToturialTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Keyboard ToturialTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Keyboard-ToturialTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard Toturial.app/Keyboard Toturial";
+			};
+			name = Release;
+		};
+		9AD620F024FC08C300DA2B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0215F9E78C116E1C52B3F34 /* Pods-Keyboard Toturial-Keyboard ToturialUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Keyboard ToturialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Keyboard-ToturialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Keyboard Toturial";
+			};
+			name = Debug;
+		};
+		9AD620F124FC08C300DA2B59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0344426F1F73A35F4F8B9B78 /* Pods-Keyboard Toturial-Keyboard ToturialUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Keyboard ToturialUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rivavillageacademy.Keyboard-ToturialUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Keyboard Toturial";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD620BA24FC08C100DA2B59 /* Build configuration list for PBXProject "Keyboard Toturial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD620E724FC08C300DA2B59 /* Debug */,
+				9AD620E824FC08C300DA2B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD620E924FC08C300DA2B59 /* Build configuration list for PBXNativeTarget "Keyboard Toturial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD620EA24FC08C300DA2B59 /* Debug */,
+				9AD620EB24FC08C300DA2B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD620EC24FC08C300DA2B59 /* Build configuration list for PBXNativeTarget "Keyboard ToturialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD620ED24FC08C300DA2B59 /* Debug */,
+				9AD620EE24FC08C300DA2B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD620EF24FC08C300DA2B59 /* Build configuration list for PBXNativeTarget "Keyboard ToturialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD620F024FC08C300DA2B59 /* Debug */,
+				9AD620F124FC08C300DA2B59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD620B724FC08C100DA2B59 /* Project object */;
+}
